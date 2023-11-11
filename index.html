@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThinkCalc</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div id="container">
+        <div id="display"></div>
+        <div id="inputs">
+            <div class="col a">
+                <div class="row">
+                    <button class="small cls"><span class="dot">C</span></button>
+                    <button class="small d operator">/</button>
+                    <button class="small d operator">*</button>
+                </div>
+                <div class="row">
+                    <button class="small d ">7</button>
+                    <button class="small d">8</button>
+                    <button class="small d">9</button>
+                </div>
+                <div class="row">
+                    <button class="small d">4</button>
+                    <button class="small d">5</button>
+                    <button class="small d">6</button>
+                </div>
+                <div class="row">
+                    <button class="small d">1</button>
+                    <button class="small d">2</button>
+                    <button class="small d">3</button>
+                </div>
+                <div class="row">
+                    <button class="hbig d">0</button>
+                    <button class="small d">.</button>
+                </div>
+            </div>
+            <div class="col b">
+                <button class="small flex d operator">–</button>
+                <button class="vbig d operator">+</button>
+                <button id="ok" class="vbig blue">OK</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

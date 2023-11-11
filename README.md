@@ -1,2 +1,2 @@
-# thinkcalc
-TOP calculator project
+# calculator
+The Odin Project calculator
